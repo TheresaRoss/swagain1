@@ -10,6 +10,17 @@
       "StackName": "amplify-swagain1-dev-144051",
       "StackId": "arn:aws:cloudformation:ap-southeast-1:961792810889:stack/amplify-swagain1-dev-144051/acc1ab50-df4e-11ed-9db5-0ae6b14d0c5a",
       "AmplifyAppId": "d1bb1ludmsxz0x"
+    },
+    "categories": {
+      "function": {
+        "swagain12e605598": {
+          "deploymentBucketName": "amplify-swagain1-dev-144051-deployment",
+          "s3Key": "amplify-builds/swagain12e605598-7458433343414d564751-build.zip"
+        }
+      },
+      "api": {
+        "api9a4ba552": {}
+      }
     }
   }
 }

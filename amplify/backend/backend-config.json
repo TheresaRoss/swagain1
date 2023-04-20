@@ -1,1 +1,43 @@
-{}
+{
+  "api": {
+    "api9a4ba552": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "swagain12e605598"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "swagain12e605598": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_swagain12e605598_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "swagain12e605598"
+        }
+      ]
+    },
+    "AMPLIFY_function_swagain12e605598_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "swagain12e605598"
+        }
+      ]
+    }
+  }
+}
